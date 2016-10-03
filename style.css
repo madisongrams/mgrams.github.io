@@ -102,6 +102,9 @@ a:hover {
 h1.about {
     color: #107896;
 }
+h2.projects {
+    color: #107896;
+}
 h3 {
     text-align: left;
     color: #101010;
@@ -117,6 +120,7 @@ p.projects {
     margin:0 200px;
     text-align: center;
     font-size: 17px;
+    color: white;
 }
 
 p.projects a:hover {
@@ -124,6 +128,7 @@ p.projects a:hover {
 }
 
 p.githublink a:link {
+    font-size: 11px;
     text-align: center;
     color: #107896;
 }
