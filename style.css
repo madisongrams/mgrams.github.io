@@ -1,0 +1,186 @@
+body {
+  background:#42b7d7;
+  font: 13.34px Helvetica, Arial, sans-serif;
+
+  text-align: center;
+  color: white;
+
+}
+
+ul.footer {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #5A5A5A;
+    position: fixed;
+    bottom: 0;
+    left:0;
+    width: 100%;
+}
+
+li.small {
+    float: right;
+    border-right: 0px;
+}
+li.small a {
+    display: block;
+    color: white;
+    padding: 10px 14px;
+
+}
+li.small a:hover {
+    color: black;
+}
+ul.header {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+
+
+
+li.normal {
+      float: left;
+
+
+}
+
+
+li.normal a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 40px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+
+}
+
+/* Change the link color to #111 (black) on hover */
+li.normal a:hover {
+    background-color: #107896;
+}
+
+li.normal:last-child {
+    border-right: none;
+}
+
+li.image {
+    float:right;
+    padding-right: 20px;
+    padding-top: 8px;
+}
+a.active {
+    background-color: #107896;
+
+}
+
+a:link {
+  color: #107896;
+  text-decoration: none;
+
+}
+
+a:visited {
+    color: white;
+}
+
+a:hover {
+  color: white;
+}
+h1.about {
+    color: #107896;
+}
+h3 {
+    text-align: left;
+    color: #101010;
+}
+p {
+    text-align: center;
+    color: #dddddd;
+}
+p.center {
+    text-align: center;
+}
+p.projects {
+    margin:0 200px;
+    text-align: center;
+    font-size: 17px;
+}
+
+p.projects a:hover {
+    color: #107896;
+}
+
+p.githublink a:link {
+    text-align: center;
+    color: #107896;
+}
+p.githublink a:hover {
+    color: white;
+}
+p.githublink a:visited {
+    color: #107896;
+}
+img {
+    margin: auto;
+}
+a img:hover {
+    opacity: .5;
+    margin: auto;
+}
+img.back {
+    -webkit-filter: drop-shadow(2px 3px 0 #333)
+                    drop-shadow(-2px -3px 0 #333);
+    filter: drop-shadow(2px 3px 0 #333)
+            drop-shadow(-2px -3px 0 #333);
+}
+.button {
+    background-color: #107896;
+    border: none;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+    width: 120px;
+}
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+.button span:after {
+  content: '>>';
+  position: absolute;
+  opacity: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
