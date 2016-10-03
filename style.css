@@ -184,3 +184,7 @@ img.back {
   opacity: 1;
   right: 0;
 }
+table {
+  margin-left:auto;
+  margin-right:auto;
+}
