@@ -105,6 +105,9 @@ h1.about {
 h2.projects {
     color: #107896;
 }
+h2.about {
+    color: #107896;
+}
 h3 {
     text-align: left;
     color: #101010;
@@ -192,4 +195,13 @@ img.back {
 table {
   margin-left:auto;
   margin-right:auto;
+}
+table.about {
+    width: 60%;
+
+}
+
+td.about {
+  padding: 0 50px;
+
 }
