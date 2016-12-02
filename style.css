@@ -1,5 +1,5 @@
 body {
-  background:#42b7d7;
+  background: #42b7d7;
   font: 13.34px Helvetica, Arial, sans-serif;
   text-align: center;
   color: white;
@@ -42,18 +42,11 @@ ul.header {
     left: 0;
     width: 100%;
     z-index: 1000;
-
 }
-
-
-
 
 li.normal {
       float: left;
-
-
 }
-
 
 li.normal a {
     display: block;
@@ -87,7 +80,6 @@ a.active {
 a:link {
   color: #107896;
   text-decoration: none;
-
 }
 
 a:visited {
@@ -197,7 +189,10 @@ table {
 table.about {
     width: 60%;
 }
-
+th.about {
+    background-color: #333;
+}
 td.about {
+  background-color: rgba(16, 120, 150, 0.8); /*#107896;*/
   padding: 0 50px;
 }
