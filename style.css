@@ -1,7 +1,6 @@
 body {
   background:#42b7d7;
   font: 13.34px Helvetica, Arial, sans-serif;
-
   text-align: center;
   color: white;
 
@@ -67,7 +66,6 @@ li.normal a {
 
 }
 
-/* Change the link color to #111 (black) on hover */
 li.normal a:hover {
     background-color: #107896;
 }
@@ -198,10 +196,8 @@ table {
 }
 table.about {
     width: 60%;
-
 }
 
 td.about {
   padding: 0 50px;
-
 }
