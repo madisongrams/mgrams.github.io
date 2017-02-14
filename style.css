@@ -1,6 +1,7 @@
 body {
   background: #42b7d7;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  /*font: 13.34px Helvetica, Arial, sans-serif;*/
+  font-family: "Avant Garde", Avantgarde, "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
   text-align: center;
   color: white;
 
