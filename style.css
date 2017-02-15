@@ -128,7 +128,7 @@ p.githublink a:link {
     color: #107896;
 }
 p.githublink a:hover {
-    color: white;
+    font-weight: bold;
 }
 p.githublink a:visited {
     color: #107896;
