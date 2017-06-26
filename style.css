@@ -87,6 +87,9 @@ a:link {
 a:visited {
     color: white;
 }
+a.contact {
+   color: white;
+}
 a.contact:hover {
     color: #333;
 }
